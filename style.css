@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    width: 380px;
+    text-align: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* Effet titre */
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  
+}
+
+/* Texte */
+p {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+/* Bouton stylé */
+button {
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 3px 10px rgba(255, 118, 136, 0.4);
+}
+
+/* Effet hover sur le bouton */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 118, 136, 0.6);
+}
